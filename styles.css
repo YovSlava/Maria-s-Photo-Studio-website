@@ -1,1 +1,79 @@
+html {
+ margin: 0;
+}
 
+/*****Heading******/
+.heading {}
+
+.homepage {
+ background-color: #ffe277;
+ padding: 7% 15% 9%;
+ text-align: center;
+
+}
+
+.maria-img {
+ max-width: 300px;
+ max-height: 600px;
+}
+
+.title {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: bolder;
+ font-size: 45px;
+ margin: 70px;
+
+}
+
+.intro {}
+
+.buttons {
+ margin: 3% 2%;
+}
+
+/**Pricing**/
+
+#pricing {
+ margin: 0;
+ padding: 0;
+ background-color: #3f3f44;
+
+}
+
+.prices {
+ text-align: center;
+ margin: 0 auto;
+ padding: 5% 15%;
+
+}
+
+
+
+
+
+
+
+/**Portfolio**/
+
+
+#portfolio {
+ background-color: #ffe277;
+width:auto;
+}
+
+.vertical {
+ text-align: center;
+ align-items: center;
+ margin: 7% 15%;
+ padding: 0;
+ border: 0;
+   box-sizing: border-box;
+
+}
+
+.horizontal {
+align-items: center;
+margin: 7% 15%;
+padding: 0;
+border: 0;
+}
