@@ -44,10 +44,15 @@ html {
  text-align: center;
  margin: 0 auto;
  padding: 5% 15%;
-
 }
 
+.price-heading {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+ padding-top: 60px;
 
+}
 
 
 
@@ -76,4 +81,12 @@ align-items: center;
 margin: 7% 15%;
 padding: 0;
 border: 0;
+}
+
+.portfolio-heading {
+  color: #3f3f44;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
