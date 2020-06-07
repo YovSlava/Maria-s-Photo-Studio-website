@@ -1,86 +1,90 @@
 html {
- margin: 0;
+  margin: 0;
 }
 
 /*****Heading******/
-.heading {}
+.heading {
+}
 
 .homepage {
- background-color: #ffe277;
- padding: 7% 15% 9%;
- text-align: center;
-
+  background-color: #ffe277;
+  padding: 7% 15% 9%;
+  text-align: center;
 }
 
 .maria-img {
- max-width: 300px;
- max-height: 600px;
+  max-width: 300px;
+  max-height: 600px;
 }
 
 .title {
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- font-weight: bolder;
- font-size: 45px;
- margin: 70px;
-
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 45px;
+  margin: 70px;
 }
 
-.intro {}
-
 .buttons {
- margin: 3% 2%;
+  margin: 3% 2%;
+  color: #3f3f44 !important;
+  text-decoration: none !important;
+}
+
+/***Ако искаш да смениш цвета на текста в бутона трябва да се таргетира самия линк 'а' а не бутона, както горе показано - не работи. If you want to change the text color in the btn target the link (the text) not the button; with the button it wont work;****/
+
+a {
+  color: #3f3f44;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffe277;
+  text-decoration: none;
 }
 
 /**Pricing**/
 
 #pricing {
- margin: 0;
- padding: 0;
- background-color: #3f3f44;
-
+  margin: 0;
+  padding: 0;
+  background-color: #3f3f44;
 }
 
 .prices {
- text-align: center;
- margin: 0 auto;
- padding: 5% 15%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 15%;
 }
 
 .price-heading {
   color: white;
   text-align: center;
   font-size: 45px;
- padding-top: 60px;
-
+  padding-top: 60px;
 }
-
-
-
-
 
 /**Portfolio**/
 
-
 #portfolio {
- background-color: #ffe277;
-width:auto;
+  background-color: #ffe277;
+  width: auto;
 }
 
 .vertical {
- text-align: center;
- align-items: center;
- margin: 7% 15%;
- padding: 0;
- border: 0;
-   box-sizing: border-box;
-
+  text-align: center;
+  align-items: center;
+  margin: 7% 15%;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 .horizontal {
-align-items: center;
-margin: 7% 15%;
-padding: 0;
-border: 0;
+  align-items: center;
+  margin: 7% 15%;
+  padding: 0;
+  border: 0;
 }
 
 .portfolio-heading {
