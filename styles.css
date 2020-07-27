@@ -1,5 +1,6 @@
 html {
   margin: 0;
+  box-sizing: border-box;
 }
 
 /*****Heading******/
@@ -93,4 +94,95 @@ a:hover {
   font-size: 45px;
   padding-top: 60px;
   padding-bottom: 20px;
+}
+
+/**Contacts**/
+
+#contacts {
+  height: 600px;
+  background-color: #3f3f44;
+  color: khaki;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.inputBox {
+  margin: 90px 200px;
+}
+
+.contactForm {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+/**Email, Phone number and Social Media**/
+
+.emailAndPhoneNumber {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 90px 0;
+  color: #3f3f44;
+  text-align: center;
+}
+
+.rightContactDiv {
+  background-color: white;
+}
+
+.socialMedia {
+  text-align: center;
+  color: #3f3f44;
+  padding: 40px;
+}
+
+.fa {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #f8f3eb;
+  padding: 20px;
+}
+
+.fa:hover {
+  color: #ffe277;
+}
+
+/***@media**/
+
+@media only screen and (max-width: 1000px) {
+
+  .horizontal {
+    margin: auto;
+    padding: auto;
+    border: 0;
+  }
+
+    #contacts {
+      height: auto;
+      display: grid;
+      grid-template-columns: 100%;
+      background-color: #3f3f44;
+      color: white;
+    }
+
+
+  .inputBox {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+  }
+
+.emailAndPhoneNumber {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 90px 0;
+  color: #3f3f44;
+  text-align: center;
+}
+.email {
+  padding-bottom: 25px;
+}
+
+
 }

@@ -2,146 +2,183 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>PhotoStudio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhotoStudio</title>
 
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-   integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
 
- <!--Css Stylesheet-->
- <link rel="stylesheet" href="styles.css">
+  <!--Css Stylesheet-->
+  <link rel="stylesheet" href="styles.css">
 
- <!---->
- <!---->
- <!---->
+  <!--FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!---->
+  <!---->
 </head>
 
 <body>
 
- <section class="heading">
-  <!-- Heading -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-   </button>
-   <a class="navbar-brand" href="#">Maria's PhotoStudio</a>
+  <section class="heading">
+    <!-- Heading -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Maria's PhotoStudio</a>
 
-   <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="text-align: end">
-    <ul class="navbar-nav" style="text-align: end">
-     <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link active" href="#">Contacts</a>
-     </li>
-    </ul>
-   </div>
-  </nav>
-  <!---HomePage-->
-  <div class="homepage">
-   <div class="row">
-    <div class="col">
-     <h2 class="title">Maria Smith's PhotoStudio</h2>
-     <h6 class="intro">Where dreams become reality!</h6>
-     <button type="button" class="btn btn-outline-dark btn-lg buttons"><a href="#pricing">Pricing</a></button>
-     <button type="button" class="btn btn-outline-dark btn-lg buttons"><a href="#portfolio">Portfolio</a></button>
-    </div>
-    <div class="col">
-     <img src="images/portrait-597173_1280.jpg" alt="Maria photo" class="maria-img">
-    </div>
-   </div>
-  </div>
- </section>
-
- <!---Pricing-->
- <section id="pricing">
-<h2 class="price-heading">Pricing</h2>
-  <div>
-   <div class="row prices">
-    <div class="col col-lg-6">
-     <div class="card">
-      <div class="card-header">
-       <h4>Champion</h4>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="text-align: end">
+        <ul class="navbar-nav" style="text-align: end">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contacts">Contacts</a>
+          </li>
+        </ul>
       </div>
-      <div class="card-body">
-       <h6>80 photos</h6>
-       <p>Lorem ipsum dolor sit amet consectetur.</p>
-       <p>Lorem ipsum dolor sit amet consectetur.</p>
-       <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </nav>
+    <!---HomePage-->
+    <div class="homepage">
+      <div class="row">
+        <div class="col">
+          <h2 class="title">Maria Smith's PhotoStudio</h2>
+          <h6 class="intro">Where dreams become reality!</h6>
+          <button type="button" class="btn btn-outline-dark btn-lg buttons"><a href="#pricing">Pricing</a></button>
+          <button type="button" class="btn btn-outline-dark btn-lg buttons"><a href="#portfolio">Portfolio</a></button>
+        </div>
+        <div class="col">
+          <img src="images/portrait-597173_1280.jpg" alt="Maria photo" class="maria-img">
+        </div>
       </div>
-     </div>
     </div>
+  </section>
+
+  <!---Pricing-->
+  <section id="pricing">
+    <h2 class="price-heading">Pricing</h2>
+    <div>
+      <div class="row prices">
+        <div class="col col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <h4>Champion</h4>
+            </div>
+            <div class="card-body">
+              <h6>80 photos</h6>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
 
 
-    <div class="col col-lg-6">
-     <div class="card">
-      <div class="card-header">
-       <h4>Game Changer</h4>
+        <div class="col col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <h4>Game Changer</h4>
+            </div>
+            <div class="card-body">
+              <h6>120 photos</h6>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card-body">
-       <h6>120 photos</h6>
-       <p>Lorem ipsum dolor sit amet consectetur.</p>
-       <p>Lorem ipsum dolor sit amet consectetur.</p>
-       <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </section>
+
+
+  <!---Portfolio-->
+  <section>
+
+    <div id="portfolio">
+      <h2 class="portfolio-heading">Portfolio</h2>
+      <div class="row no-gutters">
+
+        <div class="col col-lg-4 col-md-6 col-sm-12 w-100"><img class='vertical' src="images/onion-5226567_640.jpg" alt="onion">
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-12 w-100">
+          <img class='vertical' src="images/lily-of-the-valley-5227538_1280.jpg" alt="lily"></div>
+        <div class="col col-lg-4 col-md-6 col-sm-12 w-100">
+          <img class='vertical' src="images/fig-tree-5225954_1280.jpg" alt="fig-tree"></div>
       </div>
-     </div>
+
+
+      <div class="row no-gutters">
+        <div class="col-lg-6 col-sm-12"><img class="horizontal" src="images/girl-5224247_1280.jpg" alt="girl-img"></div>
+        <div class="col-lg-6 col-sm-12"><img class="horizontal" src="images/selfie-5219202_1280.jpg" alt="selfie-img">
+        </div>
+      </div>
     </div>
-   </div>
-  </div>
- </section>
-
-
- <!---Portfolio-->
- <section>
-
- <div id="portfolio">
-  <h2 class="portfolio-heading">Portfolio</h2>
-  <div class="row no-gutters">
-  
-    <div class="col col-lg-4 col-md-6 w-100"><img class='vertical' src="images/onion-5226567_640.jpg" alt="onion"></div>
-   <div class="col col-lg-4 col-md-6 w-100">
-    <img class='vertical' src="images/lily-of-the-valley-5227538_1280.jpg" alt="lily"></div>
-   <div class="col col-lg-4 col-md-6 w-100">
-    <img class='vertical' src="images/fig-tree-5225954_1280.jpg" alt="fig-tree"></div>
-   </div>
-
-
-   <div class="row no-gutters">
-    <div class="col-lg-6"><img class="horizontal" src="images/girl-5224247_1280.jpg" alt="girl-img"></div>
-   <div class="col-lg-6"><img class="horizontal" src="images/selfie-5219202_1280.jpg" alt="selfie-img"></div>
-    </div>
-
-
-    <div class="col col-lg-3 col-md-6">
-     <img src="" alt="">
-     <img src="" alt="">
-     <img src="" alt="">
-    </div>
-  </div>
 
   </section>
 
 
-<section>
- <div class="footer" style="background-color: #ffe277;">
-® 2020 All Rights Reserved.
-Maria Smith
- </div>
-</section>
+  <section id="contacts">
+
+    <div class="inputBox">
+      <h4>Contact us!</h4>
+      <form action="post" class="contactForm">
+        <label for="fnameSname">Full Name: </label><input type="name" name="Firs">
+        <br>
+        <label for="email">Email address: </label> <input type="email" name="givenNameAndSurname" id="">
+        <br>
+        <label for="message">Your Message: </label>
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+        <br>
+        <input type="button" value="Submit">
+      </form>
+    </div>
+
+    <div class="rightContactDiv">
+
+      <!--Email and Phone number -->
+      <div class="emailAndPhoneNumber">
+        <div class="email">
+          <h4>Send us an Email: </h4>
+          <a href="mailto:templateemail@template.com">templateemail@template.com</a>
+        </div>
+        <div class="phonetNumber">
+          <h4>Give us a call: </h4>
+          <a href="tel:+33485478559214">0485478559214</a>
+        </div>
+      </div>
+
+      <!--Social Media -->
 
 
+      <div class="socialMedia">
+        <h4>Find us on Social Media:</h4>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook-f fa-4x"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-4x"></i></a>
+        <a href="https://twitter.com/"><i class="fa fa-twitter fa-4x"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer" style="background-color: #ffe277;">
+      ® 2020 All Rights Reserved.
+      Maria Smith
+    </div>
+</footer>
 
 </body>
 
